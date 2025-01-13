@@ -1,0 +1,28 @@
+{
+  "name": "projeto-site-noticias-dankicode",
+  "version": "1.0.0",
+  "description": "Projeto de site de notícias com NodeJS, Express e banco de dados MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihguelsilva/projeto-site-noticias-dankicode.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Mihguel Da Silva Santos Tavares De Araujo",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mihguelsilva/projeto-site-noticias-dankicode/issues"
+  },
+  "homepage": "https://github.com/mihguelsilva/projeto-site-noticias-dankicode#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
