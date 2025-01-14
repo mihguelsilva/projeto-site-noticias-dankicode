@@ -3,9 +3,38 @@
     <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Mihguel Da Silva Santos Tavares De Araujo">
+	<script src="https://kit.fontawesome.com/9a617113c7.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/public/style.css">
 	<title>Página Principal</title>
     </head>
     <body>
-	<h1>Portal de Notícias</h1>
+	<header>
+	    <div class="center">
+		<div class="logo">
+		    <h2><span style="font-weight:lighter;">Danki</span><b>news</b></h2>
+		</div><!-- div-logo -->
+		<div class="form-busca">
+		    <form>
+			<i class="fa fa-search" aria-hidden="true"></i>
+			<input type="text" placeholder="Busca..." name="busca">
+		    </form>
+		</div><!-- div-form-busca -->
+	    </div><!-- div-center -->
+	</header><!-- header -->
+	<section class="noticia-destaque">
+	    <div class="center">
+		<div class="img-destaque">
+		    <div class="overlay-destaque"></div>
+		    <div class="title-destaque-descricao">
+			<h2>Quer fugir das Praias de Verão?</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		    </div><!-- title-destaque-descricao -->
+		    <img src="/public/images/landscape.jpg">
+		</div><!-- img-destaque -->
+	    </div><!-- div-center -->
+	</section><!-- section-noticia-destaque -->
     </body>
 </html>
